@@ -6,3 +6,15 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
 .inquiry-ready{margin-top:20px;padding:18px;background:#e8f4f3}.inquiry-ready p{font-size:12px;margin-bottom:12px}.inquiry-ready .button{font-size:11px;padding:12px 16px}.inquiry-ready textarea{background:#fff;font-size:11px;min-height:180px}.copy-draft{border:0;background:none;color:#007277;font-size:11px;cursor:pointer;text-decoration:underline;margin-top:12px}
+
+/* DEINDE Brand Guidelines v1.0: responsive website typography hierarchy */
+:root{--deinde-heading-font:'Montserrat',Arial,sans-serif;--deinde-reading-font:'Open Sans',Arial,sans-serif}
+body,form input,form select,form textarea{font-family:var(--deinde-reading-font);font-weight:400}
+h1,h2,h3,.eyebrow,nav,.button,.footer-brand{font-family:var(--deinde-heading-font)}
+h1,h2{font-weight:700}
+h3{font-weight:400}
+.service h3,.pathway-grid h3,.learning h3,.founder h3,.contact form h3,.approach-steps h3{font-weight:400}
+.section-heading h2,.approach h2,.about h2,.partnerships h2,.contact h2{font-weight:700}
+.founder blockquote{font-family:var(--deinde-reading-font);font-style:italic;font-weight:400}
+.service>p:not(.eyebrow),.section-heading>p,.pathway-grid p,.approach-steps p{line-height:1.85}
+@media(max-width:520px){h1{font-weight:700}h2{font-weight:700}.service h3{font-weight:400}}
