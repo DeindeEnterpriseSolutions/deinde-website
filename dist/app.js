@@ -28,11 +28,11 @@ document.querySelector('#inquiry').addEventListener('submit', event => {
   document.querySelector('#inquiry-ready').hidden = false;
   status.textContent = 'Your draft is ready. Review it below, then open it in your email app to send. Nothing has been sent yet.';
   document.querySelector('#draft-text').value = `Subject: ${subject}\n\n${body}`;
-  document.querySelector('#email-inquiry').href = `mailto:cjsmith410@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  document.querySelector('#email-inquiry').href = `mailto:info@deindeentreprisesolutions.org?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 });
 
 document.querySelector('#copy-draft').addEventListener('click', async () => {
   const draft = document.querySelector('#draft-text');
-  try { await navigator.clipboard.writeText(draft.value); document.querySelector('#form-status').textContent = 'Draft copied. Paste it into an email to cjsmith410@gmail.com.'; }
-  catch { draft.focus(); draft.select(); document.querySelector('#form-status').textContent = 'Select and copy the draft below, then email it to cjsmith410@gmail.com.'; }
+  try { await navigator.clipboard.writeText(draft.value); document.querySelector('#form-status').textContent = 'Draft copied. Paste it into an email to info@deindeentreprisesolutions.org.'; }
+  catch { draft.focus(); draft.select(); document.querySelector('#form-status').textContent = 'Select and copy the draft below, then email it to info@deindeentreprisesolutions.org.'; }
 });
