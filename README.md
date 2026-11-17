@@ -18,7 +18,7 @@ Serve `dist` with any static server. No package install or build is required.
 - Uses the original supplied logo and the teal/navy brand palette.
 - Google Fonts serves Montserrat and Open Sans; system fallbacks are provided.
 - Services follow the phased business plan. Later service lines are identified as planned.
-- Inquiry form opens a mailto draft to `info@deindeentreprisesolutions.org`; it does not store inquiries or claim to send them. The visitor must send the draft in an email app. Direct email is available too.
+- Inquiry form opens a mailto draft to `info@deindeenterprisesolutions.org`; it does not store inquiries or claim to send them. The visitor must send the draft in an email app. Direct email is available too.
 - No analytics, cookies, tracking scripts, payment collection, or backend are installed.
 - Confirm program availability, founder credentials, and final public copy with Corbin before launch. No nonprofit tax-exemption claims, performance statistics, testimonials, or credential-provider affiliations are published.
 
